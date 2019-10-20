@@ -81,7 +81,7 @@ function wppb_view($view, $args = array()) {
 
 	$views_dir = $settings['views_dir'];
 
-	include_once wppb_dir("{$views_dir}/{$view}");
+	include_once wppb_dir("/{$views_dir}/{$view}");
 
 }
 
