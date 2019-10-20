@@ -12,6 +12,7 @@
  * Version:     1.0.0
  * Author:      Ahmad Karim
  * Prefix:      wppb
+ * GitHub URI:  ahmu83/wp-plugin-boilerplate
  */
 
 if (!defined('WPINC')) die;
