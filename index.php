@@ -93,7 +93,7 @@ function wppb_view($view, $args = array()) {
  */
 function wppb_settings() {
 
-	$settings = include_once 'settings.php';
+	$settings = include 'settings.php';
 
 	return $settings;
 
