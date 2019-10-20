@@ -94,6 +94,7 @@ function wppb_view($view, $args = array()) {
 function wppb_settings() {
 
 	$settings = include 'settings.php';
+	$settings['plugin_data'] = get_plugin_data(__FILE__);
 
 	return $settings;
 
