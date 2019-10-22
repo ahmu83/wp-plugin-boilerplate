@@ -7,10 +7,10 @@ $inline = array(
 );
 
 $hooks = array(
-	'src/hooks/actions/actions.php',
-	'src/hooks/actions/actions-handlers.php',
-	'src/hooks/filters/filters.php',
-	'src/hooks/filters/filters-handlers.php',
+	'src/api/hooks/actions/actions.php',
+	'src/api/hooks/actions/actions-handlers.php',
+	'src/api/hooks/filters/filters.php',
+	'src/api/hooks/filters/filters-handlers.php',
 );
 
 $api = array(
